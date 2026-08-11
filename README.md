@@ -1,11 +1,13 @@
-# `plaza-storage`
+# PlazaVM Repository
 
-Persistence layer crate providing thread-safe SQLite database repositories.
+This repository is part of the PlazaVM ecosystem.
 
----
+## Building
+```
+cargo build
+```
 
-## 🛠 Responsibilities
-
-- Thread-safe SQLite repository (`SqliteWorkspaceRepository`).
-- In-memory database mode for zero-disk integration tests.
-- Parameterized `rusqlite` SQL queries guaranteeing 100% SQL injection immunity.
+## Testing
+```
+cargo test
+```
